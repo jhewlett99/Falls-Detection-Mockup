@@ -2,28 +2,21 @@
 
 ## Setup
 
-Install the dependencies:
+run `node -v` to check if node is an established environment variable
 
-```bash
-pnpm install
+if no such command "node" 
+
+```
+fnm env --use-on-cd --shell power-shell | Out-String | Invoke-Expression
+fnm use 20
 ```
 
-## Get Started
+node should now be in path or environment variables
 
-Start the dev server:
+can run
 
-```bash
-pnpm dev
+```
+npm run dev
 ```
 
-Build the app for production:
 
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
