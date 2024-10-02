@@ -43,7 +43,9 @@ const Dashboard: React.FC = () => {
       <header className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold text-gray-800">Fall Detection System</h1>
         <nav className="flex space-x-4">
-          <Settings className="text-gray-600 hover:text-blue-500 cursor-pointer" />
+          <Link to="/incident-settings">
+            <Settings className="text-gray-600 hover:text-blue-500 cursor-pointer" />
+          </Link>
           <User className="text-gray-600 hover:text-blue-500 cursor-pointer" />
         </nav>
       </header>
