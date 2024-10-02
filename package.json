@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "rsbuild dev --open",
     "build": "rsbuild build",
-    "preview": "rsbuild preview"
+    "preview": "rsbuild preview",
     "vercel-build": "rsbuild build && mv dist public"
   },
   "dependencies": {
